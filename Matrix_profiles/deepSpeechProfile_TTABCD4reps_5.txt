@@ -1,0 +1,277 @@
+MeasurementProfile: {
+  ID: \{70E3C694-89B7-10A3-3148-BB02F073F0B5\}
+  CONFIGFILE: ${~engmatrix}/etc/engmatrix.cfg
+  TARGETFILE: ${~engmatrix}/etc\\\{70E3C694-89B7-10A3-3148-BB02F073F0B5\}.hd
+  KeyWords: headphone editable
+  DbcLastChange: 2024 01 1 22 16 34 08 0830
+  Name: "deepSpeechProfile_TTABCD4reps_5"
+}
+TargetFile: {
+  # id 65b3707dd7a0de07c71d564844544b83e86f54
+  # version 2.6.0.203
+  # file ${~engmatrix}/etc\{70E3C694-89B7-10A3-3148-BB02F073F0B5\}.hd
+  TransducerType: headphone
+  LevelControl: OldenburgerLX 0.5
+  FitControl: OldenburgerLX 0.5
+  BlockGroups: {
+    { # BlockGroups 0
+      Blocks: {
+       {
+        Noise: id engmatrixnoise
+        SpeechLevel: 55
+        SNR: 10
+        AudiometerCalibrationReference: engmatrixnoise
+        LevelControl: OldenburgerLX 0.5
+        FitControl: OldenburgerLX 0.5
+        LevelControl_Selected: OldenburgerLX 0.5
+        FitControl_Selected: OldenburgerLX 0.5
+        NoiseChannelLevels: 0 0
+        SpeechChannelLevels: 0 0
+        TestListDefaultSubHeader: 10
+       }
+         {
+        Noise: id engmatrixnoise
+        SpeechLevel: 70
+        SNR: 5
+        AudiometerCalibrationReference: engmatrixnoise
+        LevelControl: OldenburgerLX 0.5
+        FitControl: OldenburgerLX 0.5
+        LevelControl_Selected: OldenburgerLX 0.5
+        FitControl_Selected: OldenburgerLX 0.5
+        NoiseChannelLevels: 0 0
+        SpeechChannelLevels: 0 0
+        TestListDefaultSubHeader: 10
+       }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.8
+          FitControl: OldenburgerLX 0.8
+          LevelControl_Selected: OldenburgerLX 0.8
+          FitControl_Selected: OldenburgerLX 0.8
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.2
+          FitControl: OldenburgerLX 0.2
+          LevelControl_Selected: OldenburgerLX 0.2
+          FitControl_Selected: OldenburgerLX 0.2
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.5
+          FitControl: OldenburgerLX 0.5
+          LevelControl_Selected: OldenburgerLX 0.5
+          FitControl_Selected: OldenburgerLX 0.5
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerWithSlope
+          FitControl: OldenburgerWithSlope
+          LevelControl_Selected: OldenburgerWithSlope
+          FitControl_Selected: OldenburgerWithSlope
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 30
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerWithSlope
+          FitControl: OldenburgerWithSlope
+          LevelControl_Selected: OldenburgerWithSlope
+          FitControl_Selected: OldenburgerWithSlope
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 30
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.5
+          FitControl: OldenburgerLX 0.5
+          LevelControl_Selected: OldenburgerLX 0.5
+          FitControl_Selected: OldenburgerLX 0.5
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.8
+          FitControl: OldenburgerLX 0.8
+          LevelControl_Selected: OldenburgerLX 0.8
+          FitControl_Selected: OldenburgerLX 0.8
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.2
+          FitControl: OldenburgerLX 0.2
+          LevelControl_Selected: OldenburgerLX 0.2
+          FitControl_Selected: OldenburgerLX 0.2
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerWithSlope
+          FitControl: OldenburgerWithSlope
+          LevelControl_Selected: OldenburgerWithSlope
+          FitControl_Selected: OldenburgerWithSlope
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 30
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.8
+          FitControl: OldenburgerLX 0.8
+          LevelControl_Selected: OldenburgerLX 0.8
+          FitControl_Selected: OldenburgerLX 0.8
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.2
+          FitControl: OldenburgerLX 0.2
+          LevelControl_Selected: OldenburgerLX 0.2
+          FitControl_Selected: OldenburgerLX 0.2
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.5
+          FitControl: OldenburgerLX 0.5
+          LevelControl_Selected: OldenburgerLX 0.5
+          FitControl_Selected: OldenburgerLX 0.5
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.5
+          FitControl: OldenburgerLX 0.5
+          LevelControl_Selected: OldenburgerLX 0.5
+          FitControl_Selected: OldenburgerLX 0.5
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerWithSlope
+          FitControl: OldenburgerWithSlope
+          LevelControl_Selected: OldenburgerWithSlope
+          FitControl_Selected: OldenburgerWithSlope
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 30
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.2
+          FitControl: OldenburgerLX 0.2
+          LevelControl_Selected: OldenburgerLX 0.2
+          FitControl_Selected: OldenburgerLX 0.2
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+         {
+          Noise: id engmatrixnoise
+          SpeechLevel: 70
+          SNR: 5
+          AudiometerCalibrationReference: engmatrixnoise
+          LevelControl: OldenburgerLX 0.8
+          FitControl: OldenburgerLX 0.8
+          LevelControl_Selected: OldenburgerLX 0.8
+          FitControl_Selected: OldenburgerLX 0.8
+          NoiseChannelLevels: 0 0
+          SpeechChannelLevels: 0 0
+          TestListDefaultSubHeader: 20
+         }
+  
+      }
+    }
+  }
+  R&D: 0
+  Scripts: {
+    TargetSetup: {
+    }
+  }
+  GroupShuffle: none
+  BlockShuffle: none
+  TrialShuffle: full
+  StoreMode: Block
+  MeasurementId: ENGMatrix
+  ClientLanguage: eng
+  CalibrationReference: engmatrixnoise
+  ClosedResponse: 0
+  LevelUnit: HL
+  OriginalNoise: id engmatrixnoise
+  MaskingNoise: id engmatrixnoise
+  AllowConvolutions: 1
+  InitOptionsHeader: {
+  }
+  TestListStartQuery: 1
+}

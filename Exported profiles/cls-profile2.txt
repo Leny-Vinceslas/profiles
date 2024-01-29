@@ -1,0 +1,69 @@
+﻿MeasurementProfile: {
+  ID: \{E0E3F4D1-369B-452C-8BD0-1157FA359519\}
+  CONFIGFILE: $\{~kls\}/etc/kls.cfg
+  TARGETFILE: $\{~kls\}/etc\\\{E0E3F4D1-369B-452C-8BD0-1157FA359519\}.hd
+  KeyWords: headphone editable
+  DbcLastChange: 2023 10 3 04 12 02 51 0571
+  Name: Headphones, broadband, left/right - Training 1 block
+  Remark: Order - 1
+}
+TargetFile: {
+  # id 65fafbd221764d44e0c28b4e2bebd5345ac952
+  # version 2.3.1.202
+  # file ${~kls}/etc\{E0E3F4D1-369B-452C-8BD0-1157FA359519}.hd
+  Signals: {
+    QueryGroupSignals: {
+      search signal header $\{DestinationHeader\} where 'SignalInfo/GroupId contains thirdoctave_lnn_kls_1'
+    }
+    QuerySingleSignals: {
+      search signal header $\{DestinationHeader\} where 'SignalInfo/Keywords contains noise'
+    }
+  }
+  TransducerType: headphone
+  LevelControl: Adaptive
+  LevelUnit: SPL
+  SignalGroup: _KLS_SIGNALS_SINGLE_
+  DefaultType: left/right
+  R&D: 0
+  Scripts: {
+    TargetSetup: {
+    }
+  }
+  GroupShuffle: none
+  BlockShuffle: user
+  MeasurementId: KLS
+  InterStimulusPause: 500
+  NonAdaptiveMinLevel: 10
+  NonAdaptiveMaxLevel: 100
+  NonAdaptiveIntervals: 9
+  NonAdaptiveRepetitions: 1
+  ClientLanguage: eng
+  BlockGroups: {
+    {
+      GroupId: \{5C139048-A42F-4F68-A8D0-86CBCEA73EA1\}
+      SignalGroup: _KLS_SIGNALS_SINGLE_
+      LevelUnit: SPL
+      ChannelLevels: 0
+      Blocks: {
+        {
+          Signal: id engmatrixnoise
+          Enabled: 1
+          AdaptiveMaxLevel: 90
+        }
+      }
+    }
+    {
+      GroupId: \{5C139048-A42F-4F68-A8D0-86CBCEA73EA1\}
+      SignalGroup: _KLS_SIGNALS_SINGLE_
+      LevelUnit: SPL
+      ChannelLevels: - 0
+      Blocks: {
+        {
+          Signal: id engmatrixnoise
+          Enabled: 1
+          AdaptiveMaxLevel: 90
+        }
+      }
+    }
+  }
+}

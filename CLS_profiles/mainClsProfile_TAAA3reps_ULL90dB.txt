@@ -1,0 +1,230 @@
+MeasurementProfile: {
+  ID: \{7E30BDCA-E5E1-69A8-8965-25B3EA5FA358\}
+  CONFIGFILE: $\{~kls\}/etc/kls.cfg
+  TARGETFILE: $\{~kls\}/etc\\\{7E30BDCA-E5E1-69A8-8965-25B3EA5FA358\}.hd
+  KeyWords: headphone editable
+  DbcLastChange: 2023 12 1 11 17 15 57 0784
+  Name: "mainClsProfile_TAAA3reps_ULL90dB"
+  Remark: "90dB Max level"
+}
+TargetFile: {
+  # id 65edecc8a602be0a1f83748e34c58cc9706266
+  # version 2.3.1.202
+  # file ${~kls}/etc\{7E30BDCA-E5E1-69A8-8965-25B3EA5FA358\}.hd
+  Signals: {
+    QueryGroupSignals: {
+      search signal header $\{DestinationHeader\} where 'SignalInfo/GroupId contains thirdoctave_lnn_kls_1'
+    }
+    QuerySingleSignals: {
+      search signal header $\{DestinationHeader\} where 'SignalInfo/Keywords contains noise'
+    }
+  }
+  TransducerType: headphone
+  LevelControl: Adaptive
+  LevelUnit: SPL
+  SignalGroup: _KLS_SIGNALS_SINGLE_
+  DefaultType: left/right
+  R&D: 0
+  Scripts: {
+    TargetSetup: {
+    }
+  }
+  GroupShuffle: none
+  BlockShuffle: user
+  MeasurementId: KLS
+  InterStimulusPause: 500
+  NonAdaptiveMinLevel: 10
+  NonAdaptiveMaxLevel: 100
+  NonAdaptiveIntervals: 9
+  NonAdaptiveRepetitions: 1
+  ClientLanguage: eng
+  BlockGroups: {
+    {
+      GroupId: \{8E22EFBD-47BC-81D9-48A7-4E8934C82FB5\}
+      SignalGroup: _KLS_SIGNALS_SINGLE_
+      LevelUnit: SPL
+      ChannelLevels: 0
+      SignalGroupDisplayName: Single signals
+      Blocks: {
+        {
+          Signal: id engmatrixnoise
+          Enabled: 1
+          AdaptiveMaxLevel: 90
+          CalibrationReference: engmatrixnoise
+          Repetitions: 0
+          SignalLength: 1000
+          RampLength: 50
+          LevelOffset: 0
+          TrialsTotal: 20
+          SignalDisplayName: Noise English (UK) Matrix Test
+        }
+      }
+    }
+    {
+      GroupId: \{8E22EFBD-47BC-81D9-48A7-4E8934C82FB5\}
+      SignalGroup: _KLS_SIGNALS_SINGLE_
+      LevelUnit: SPL
+      ChannelLevels: - 0
+      SignalGroupDisplayName: Single signals
+      Blocks: {
+        {
+          Signal: id engmatrixnoise
+          Enabled: 1
+          AdaptiveMaxLevel: 90
+          CalibrationReference: engmatrixnoise
+          Repetitions: 0
+          SignalLength: 1000
+          RampLength: 50
+          LevelOffset: 0
+          TrialsTotal: 20
+          SignalDisplayName: Noise English (UK) Matrix Test
+        }
+      }
+    }
+      {
+      GroupId: \{02AD2125-D18E-E6A2-F317-6D8913418DAB\}
+      SignalGroup: _KLS_SIGNALS_SINGLE_
+      LevelUnit: SPL
+      ChannelLevels: 0
+      SignalGroupDisplayName: Single signals
+      Blocks: {
+        {
+          Signal: id engmatrixnoise
+          Enabled: 1
+          AdaptiveMaxLevel: 90
+          CalibrationReference: engmatrixnoise
+          Repetitions: 0
+          SignalLength: 1000
+          RampLength: 50
+          LevelOffset: 0
+          TrialsTotal: 20
+          SignalDisplayName: Noise English (UK) Matrix Test
+        }
+      }
+    }
+    {
+      GroupId: \{02AD2125-D18E-E6A2-F317-6D8913418DAB\}
+      SignalGroup: _KLS_SIGNALS_SINGLE_
+      LevelUnit: SPL
+      ChannelLevels: - 0
+      SignalGroupDisplayName: Single signals
+      Blocks: {
+        {
+          Signal: id engmatrixnoise
+          Enabled: 1
+          AdaptiveMaxLevel: 90
+          CalibrationReference: engmatrixnoise
+          Repetitions: 0
+          SignalLength: 1000
+          RampLength: 50
+          LevelOffset: 0
+          TrialsTotal: 20
+          SignalDisplayName: Noise English (UK) Matrix Test
+        }
+      }
+    }
+    {
+      GroupId: \{FA68CE38-119A-FDA2-00A9-055B4ED1A6A0\}
+      SignalGroup: _KLS_SIGNALS_SINGLE_
+      LevelUnit: SPL
+      ChannelLevels: 0
+      SignalGroupDisplayName: Single signals
+      Blocks: {
+        {
+          Signal: id engmatrixnoise
+          Enabled: 1
+          AdaptiveMaxLevel: 90
+          CalibrationReference: engmatrixnoise
+          Repetitions: 0
+          SignalLength: 1000
+          RampLength: 50
+          LevelOffset: 0
+          TrialsTotal: 20
+          SignalDisplayName: Noise English (UK) Matrix Test
+        }
+      }
+    }
+    {
+      GroupId: \{FA68CE38-119A-FDA2-00A9-055B4ED1A6A0\}
+      SignalGroup: _KLS_SIGNALS_SINGLE_
+      LevelUnit: SPL
+      ChannelLevels: - 0
+      SignalGroupDisplayName: Single signals
+      Blocks: {
+        {
+          Signal: id engmatrixnoise
+          Enabled: 1
+          AdaptiveMaxLevel: 90
+          CalibrationReference: engmatrixnoise
+          Repetitions: 0
+          SignalLength: 1000
+          RampLength: 50
+          LevelOffset: 0
+          TrialsTotal: 20
+          SignalDisplayName: Noise English (UK) Matrix Test
+        }
+      }
+    }
+    {
+      GroupId: \{3C7710DC-F62D-E78F-2DBA-84F1ADA0AF7B\}
+      SignalGroup: _KLS_SIGNALS_SINGLE_
+      LevelUnit: SPL
+      ChannelLevels: 0
+      SignalGroupDisplayName: Single signals
+      Blocks: {
+        {
+          Signal: id engmatrixnoise
+          Enabled: 1
+          AdaptiveMaxLevel: 90
+          CalibrationReference: engmatrixnoise
+          Repetitions: 0
+          SignalLength: 1000
+          RampLength: 50
+          LevelOffset: 0
+          TrialsTotal: 20
+          SignalDisplayName: Noise English (UK) Matrix Test
+        }
+      }
+    }
+    {
+      GroupId: \{3C7710DC-F62D-E78F-2DBA-84F1ADA0AF7B\}
+      SignalGroup: _KLS_SIGNALS_SINGLE_
+      LevelUnit: SPL
+      ChannelLevels: - 0
+      SignalGroupDisplayName: Single signals
+      Blocks: {
+        {
+          Signal: id engmatrixnoise
+          Enabled: 1
+          AdaptiveMaxLevel: 90
+          CalibrationReference: engmatrixnoise
+          Repetitions: 0
+          SignalLength: 1000
+          RampLength: 50
+          LevelOffset: 0
+          TrialsTotal: 20
+          SignalDisplayName: Noise English (UK) Matrix Test
+        }
+      }
+    }
+  
+  }
+  ConfigFile: $\{~kls\}/etc/kls.cfg
+  editable: 1
+  ReferenceDataVersion: 1
+  Scale: {
+    50: extremely loud
+    45: very loud
+    40: $WEDGE 0.8 0.7
+    35: loud
+    30: $WEDGE 0.6 0.5
+    25: medium
+    20: $WEDGE 0.4 0.3
+    15: soft
+    10: $WEDGE 0.2 0.1
+    5: very soft
+    0: not heard
+  }
+  ScaleString: \"extremely loud test\" \"very loud\" \"$WEDGE 0.8 0.7\" loud \"$WEDGE 0.6 0.5\" medium \"$WEDGE 0.4 0.3\" soft \"$WEDGE 0.2 0.1\" \"very soft\" \"not heard\"
+  FitControl: LinBez2x3C
+}

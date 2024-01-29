@@ -1,0 +1,27 @@
+﻿MeasurementProfile: {
+  ID: head_lnn_1_lr
+  CONFIGFILE: $\{~kls\}/etc/kls.cfg
+  TARGETFILE: $\{~kls\}/etc/head_lnn_1_lr.hd
+  KeyWords: headphone
+  CustomSort: 700
+  DbcLastChange: 2023 04 1 17 06 39 03 0589
+}
+TargetFile: {
+  # id 65d8c607f3916ea7c085b60473f2adbec6888f
+  # version 2.0.1.0
+  # file ${~kls}\etc\head_lnn_1_lr.hd
+  #
+  Signals: {
+    QueryGroupSignals: {
+      search signal header $\{DestinationHeader\} where 'SignalInfo/GroupId contains thirdoctave_lnn_kls_1'
+    }
+    QuerySingleSignals: {
+      search signal header $\{DestinationHeader\} where 'SignalInfo/Keywords contains noise'
+    }
+  }
+  TransducerType: headphone
+  LevelControl: Adaptive
+  LevelUnit: HL
+  SignalGroup: thirdoctave_lnn_kls_1
+  DefaultType: left/right
+}
